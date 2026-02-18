@@ -4,6 +4,8 @@ const cors = require("cors");
 const connectDB = require("./config/db");
 const resumeRoutes = require("./routes/resumeRoutes");
 const errorHandler = require("./middleware/errorMiddleware");
+const analysisRoutes = require("./routes/analysisRoutes");
+
 
 dotenv.config();
 connectDB();
@@ -32,7 +34,7 @@ app.get("/api/protected", protect, (req, res) => {
   });
 });
 
-
+app.use("/api/analysis", analysisRoutes);
 // Error Middleware (must be last)
 app.use(errorHandler);
 
