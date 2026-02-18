@@ -14,7 +14,7 @@ Job seekers often struggle to understand:
 - Which skills are they missing
 - How much they align with industry requirements
 
-AI Career Compass solves this by:
+This platform solves this by:
 
 ✔ Extracting skills from resumes  
 ✔ Matching them against required job skills  
