@@ -1,4 +1,4 @@
-# 🚀 AI Career Compass
+#  AI-Resume-Analysis-Job-Match-Platform
 
 An AI-powered full-stack MERN application that analyzes resumes, detects skill gaps, and generates personalized learning roadmaps based on job roles.
 
@@ -6,7 +6,7 @@ Built with a scalable backend architecture and modern SaaS-style frontend dashbo
 
 ---
 
-## 🧠 Problem Statement
+##  Problem Statement
 
 Job seekers often struggle to understand:
 
@@ -24,7 +24,7 @@ AI Career Compass solves this by:
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 ### 🔹 Frontend
 - React (Vite)
@@ -54,31 +54,31 @@ Architecture supports future upgrade to:
 
 ---
 
-## ⚙️ Features
+##  Features
 
-### 🔐 Authentication
+###  Authentication
 - JWT-based login & register
 - Protected routes
 - Persistent login via localStorage
 
-### 📄 Resume Analysis
+###  Resume Analysis
 - Upload resume (PDF)
 - Extract resume text
 - Detect technical skills
 - Match against job role
 - Calculate match percentage
 
-### 📊 Skill Gap Analysis
+###  Skill Gap Analysis
 - Matched skills (green tags)
 - Missing skills (red tags)
 - Animated progress bar
 - Color-coded score badge
 
-### 🗺️ Personalized Roadmap
+###  Personalized Roadmap
 - Auto-generated weekly learning plan
 - Expandable roadmap view
 
-### 📁 Analysis History
+###  Analysis History
 - Stored in MongoDB
 - User-specific dashboard
 - Sorted by latest analysis
@@ -129,7 +129,7 @@ npm install
 
 ---
 
-## 👤 Contact & Connect
+##  Contact & Connect
 
 **Rithesh Vanjari**  
 B.Tech(AI&ML) | Full-Stack + AI 
