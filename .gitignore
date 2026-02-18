@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment variables (Sensitive - DON'T PUSH)
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# MongoDB / Database data (if stored locally)
+data/db/
+*.db
+
+# Build / Output
+dist/
+build/
+
+# Editor-specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
